@@ -4,8 +4,8 @@
   #include "lauxlib.h"
 }
 
-3 class Cluatest
- {
-  public:
-          static int Initialize(lua_State* L); 
- };
+class Cluatest
+{
+ public:
+         static int Initialize(lua_State* L); 
+};

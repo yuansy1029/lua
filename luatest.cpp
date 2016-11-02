@@ -1,6 +1,6 @@
 #include "luatest.h"
 
-static int GetGameTime(lua_State *L)
+static int GetNum(lua_State *L)
 {
     lua_pushnumber(L,123456);
     return 1;
@@ -17,4 +17,4 @@ int Cluatest::Initialize(lua_State* L)
      lua_pop(L,1);
      return 0;
 }
-~       
+     
